@@ -1,0 +1,16 @@
+PODS:
+  - LiipKit (0.2.0)
+
+DEPENDENCIES:
+  - LiipKit (from `../`)
+
+EXTERNAL SOURCES:
+  LiipKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LiipKit: 81174b378d9b60815e0079dd4e9e831fb48cca8f
+
+PODFILE CHECKSUM: 3f27f14c34d104196465e16a78c39abcf8e93805
+
+COCOAPODS: 1.2.0.beta.1

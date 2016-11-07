@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qQF-Ld-Mj3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="LiipKit_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ru8-5F-Udv">
+                                <rect key="frame" x="20" y="72" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="translated_key_2"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Azm-Ln-XAL">
+                                <rect key="frame" x="20" y="101" width="560" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedTitleForNormal" value="translated_key_3"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedTitleForHighlighted" value="button_pushed"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daf-zc-7pu">
+                                <rect key="frame" x="20" y="139" width="560" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedTitleForNormal" value="translated_key_3"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedTitleForHighlighted" value="button_pushed"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="Azm-Ln-XAL" secondAttribute="leading" id="61S-WJ-rPC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="daf-zc-7pu" secondAttribute="trailing" id="67T-Yi-EV1"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="daf-zc-7pu" secondAttribute="leading" id="JVo-RF-lT7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ru8-5F-Udv" secondAttribute="trailing" id="KNm-Kd-nZb"/>
+                            <constraint firstItem="Azm-Ln-XAL" firstAttribute="top" secondItem="Ru8-5F-Udv" secondAttribute="bottom" constant="8" id="Tbw-ff-Lfd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Azm-Ln-XAL" secondAttribute="trailing" id="aBt-U1-T0F"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Ru8-5F-Udv" secondAttribute="leading" id="dYb-FC-Tlv"/>
+                            <constraint firstItem="Ru8-5F-Udv" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="ecf-Pc-vi3"/>
+                            <constraint firstItem="daf-zc-7pu" firstAttribute="top" secondItem="Azm-Ln-XAL" secondAttribute="bottom" constant="8" id="q1c-wX-svk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6OG-O0-Cm8">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="y7q-6Y-ND2">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="localizedTitle" value="translated_key_1"/>
+                            </userDefinedRuntimeAttributes>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999" y="507"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="db5-RJ-bia">
+            <objects>
+                <navigationController id="qQF-Ld-Mj3" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="la8-lz-193">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="t8S-dG-bfi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QH1-qC-YcF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="507"/>
+        </scene>
+    </scenes>
+</document>
