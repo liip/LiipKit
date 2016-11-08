@@ -3,6 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/LiipKit.svg?style=flat)](http://cocoapods.org/pods/LiipKit)
 [![License](https://img.shields.io/cocoapods/l/LiipKit.svg?style=flat)](http://cocoapods.org/pods/LiipKit)
 [![Platform](https://img.shields.io/cocoapods/p/LiipKit.svg?style=flat)](http://cocoapods.org/pods/LiipKit)
+[![Build Status](https://travis-ci.org/liip/LiipKit.svg?branch=master)](https://travis-ci.org/liip/LiipKit)
 
 ## Example
 
