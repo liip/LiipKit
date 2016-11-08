@@ -63,6 +63,12 @@ Method which return true if a string is empty or whitespace(s)
 "test".isEmptyOrWhitespace() // false
 ```
 
+Convert string to DateTime object with `.toDateTime`
+
+```swift
+"2016-03-08T00:00:00.000+01:00".toDateTime()
+```
+
 ### UIBarItem extensions
 
 Provide a property `localizedTitle` which is available in Interface Builder (see Main.storyboard in Example project).

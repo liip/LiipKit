@@ -23,28 +23,28 @@ class StringExtensionsTest: XCTestCase {
     }
 
     func testToDateTime() {
-        let dateString = "2016-03-08T00:00:00.000+01:00"
+        let dateString = "2016-03-08T00:00:00.000+00:00"
         let dateParsed = dateString.toDateTime()
 
-        let dateComponents = NSDateComponents()
+        var dateComponents = DateComponents()
         dateComponents.year = 2016
         dateComponents.month = 3
         dateComponents.day = 8
-        dateComponents.timeZone = TimeZone(abbreviation: "+01:00")
+        dateComponents.timeZone = TimeZone(abbreviation: "UTC")
         dateComponents.hour = 00
         dateComponents.minute = 00
 
         let userCalendar = Calendar.current
         let date = userCalendar.date(from: dateComponents as DateComponents)
        
-        XCTAssertEqual(date, dateParsed)
+        XCTAssertEqual(dateParsed, date)
     }
 
     func testToDateTimeWithShortDate() {
         let stortDateString = "2016-03-08"
         let stortDateParsed = stortDateString.toDateTime("yyyy-MM-dd")
 
-        let dateComponents = NSDateComponents()
+        var dateComponents = DateComponents()
         dateComponents.year = 2016
         dateComponents.month = 3
         dateComponents.day = 8
