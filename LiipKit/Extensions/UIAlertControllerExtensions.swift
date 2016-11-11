@@ -19,4 +19,14 @@ extension UIAlertController {
             rootViewController.present(self, animated: flag, completion: completion)
         }
     }
+
+    private class ClearViewController: UIViewController {
+        override var preferredStatusBarStyle: UIStatusBarStyle {
+            return UIApplication.shared.statusBarStyle
+        }
+
+        override var prefersStatusBarHidden: Bool {
+            return UIApplication.shared.isStatusBarHidden
+        }
+    }
 }
