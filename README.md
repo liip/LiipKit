@@ -25,7 +25,7 @@ pod "LiipKit"
 * [Int extensions](#int-extensions)
 * [NSDate extensions](#nsdate-extensions)
 * [String extensions](#string-extensions)
-* [UIAlertController extensions](#uialert-extensions)
+* [UIAlertController extensions](#uialertcontroller-extensions)
 * [UIBarItem extensions](#uibaritem-extensions)
 * [UIButton extensions](#uibutton-extensions)
 * [UIColor extensions](#uicolor-extensions)
