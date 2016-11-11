@@ -21,7 +21,7 @@ extension String {
     }
 
     /// LiipKit
-    public func toDateTime(_ dateFormat: String = "yyyy-MM-dd'T'HH:mm:ss.SSSZZ") -> Date? {
+    public func toDateTime(dateFormat: String = "yyyy-MM-dd'T'HH:mm:ss.SSSZZ") -> Date? {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = dateFormat
         let dateFromString = dateFormatter.date(from: self)
