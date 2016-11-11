@@ -25,6 +25,7 @@ pod "LiipKit"
 * [Int extensions](#int-extensions)
 * [NSDate extensions](#nsdate-extensions)
 * [String extensions](#string-extensions)
+* [UIAlertController extensions](#uialert-extensions)
 * [UIBarItem extensions](#uibaritem-extensions)
 * [UIButton extensions](#uibutton-extensions)
 * [UIColor extensions](#uicolor-extensions)
@@ -68,6 +69,16 @@ Convert string to DateTime object with `.toDateTime`
 
 ```swift
 "2016-03-08T00:00:00.000+01:00".toDateTime()
+```
+
+### UIAlertController extensions
+
+Method `show` to allow to show the alert without knowing the top view controller required to present an alert.
+
+```swift
+let alert = UIAlertController(title: "Alert", message: "Alert message", preferredStyle: UIAlertControllerStyle.alert)
+alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+alert.show(animated: true, completion: nil)
 ```
 
 ### UIBarItem extensions
