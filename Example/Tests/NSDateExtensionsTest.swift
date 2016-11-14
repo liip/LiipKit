@@ -22,7 +22,7 @@ class NSDateExtensionsTest: XCTestCase {
         let date = userCalendar.date(from: dateComponents as DateComponents)
 
         XCTAssertEqual(date?.toString(), "08-03-2016")
-        XCTAssertEqual(date?.toString("dd.MM.yyyy"), "08.03.2016")
-        XCTAssertEqual(date?.toString("yyyy"), "2016")
+        XCTAssertEqual(date?.toString(dateFormat: "dd.MM.yyyy"), "08.03.2016")
+        XCTAssertEqual(date?.toString(dateFormat: "yyyy"), "2016")
     }
 }

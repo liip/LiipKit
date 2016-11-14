@@ -42,7 +42,7 @@ class StringExtensionsTest: XCTestCase {
 
     func testToDateTimeWithShortDate() {
         let stortDateString = "2016-03-08"
-        let stortDateParsed = stortDateString.toDateTime("yyyy-MM-dd")
+        let stortDateParsed = stortDateString.toDateTime(dateFormat: "yyyy-MM-dd")
 
         var dateComponents = DateComponents()
         dateComponents.year = 2016
