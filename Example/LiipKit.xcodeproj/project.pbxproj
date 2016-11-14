@@ -18,6 +18,7 @@
 		DC9ECE2C1D426C2600F6FB1A /* UIButtonExtensionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9ECE291D426C1C00F6FB1A /* UIButtonExtensionsUITests.swift */; };
 		DC9ECE321D42742900F6FB1A /* UILabelExtensionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9ECE2E1D4273F600F6FB1A /* UILabelExtensionsUITests.swift */; };
 		DC9ECE331D42742C00F6FB1A /* UIBarItemExtensionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9ECE301D42740B00F6FB1A /* UIBarItemExtensionsUITests.swift */; };
+		DCA820E71DD60D280043A3B8 /* UIAlertControllerExtensionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA820E61DD60D280043A3B8 /* UIAlertControllerExtensionsUITests.swift */; };
 		DCD2BCE61D465CD000D414C1 /* IntExtensionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2BCE41D465CBD00D414C1 /* IntExtensionsTest.swift */; };
 		DCD2BCEB1D46600D00D414C1 /* NSDateExtensionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2BCE91D465FDD00D414C1 /* NSDateExtensionsTest.swift */; };
 		DCDE93731D42208700BB09CC /* StringExtensionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE93711D42205800BB09CC /* StringExtensionsTest.swift */; };
@@ -64,6 +65,7 @@
 		DC9ECE291D426C1C00F6FB1A /* UIButtonExtensionsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButtonExtensionsUITests.swift; path = UITests/UIButtonExtensionsUITests.swift; sourceTree = SOURCE_ROOT; };
 		DC9ECE2E1D4273F600F6FB1A /* UILabelExtensionsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabelExtensionsUITests.swift; path = UITests/UILabelExtensionsUITests.swift; sourceTree = SOURCE_ROOT; };
 		DC9ECE301D42740B00F6FB1A /* UIBarItemExtensionsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIBarItemExtensionsUITests.swift; path = UITests/UIBarItemExtensionsUITests.swift; sourceTree = SOURCE_ROOT; };
+		DCA820E61DD60D280043A3B8 /* UIAlertControllerExtensionsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIAlertControllerExtensionsUITests.swift; path = UITests/UIAlertControllerExtensionsUITests.swift; sourceTree = SOURCE_ROOT; };
 		DCD0FF0B1D4212CC0052BB60 /* LiipKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiipKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/LiipKit-cvlzdzoojrocuzfrxmbezffosqrn/Build/Products/Debug-iphonesimulator/LiipKit/LiipKit.framework"; sourceTree = "<group>"; };
 		DCD2BCE41D465CBD00D414C1 /* IntExtensionsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensionsTest.swift; sourceTree = "<group>"; };
 		DCD2BCE91D465FDD00D414C1 /* NSDateExtensionsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtensionsTest.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				DC9ECE281D426C1C00F6FB1A /* Info.plist */,
+				DCA820E61DD60D280043A3B8 /* UIAlertControllerExtensionsUITests.swift */,
 				DC9ECE301D42740B00F6FB1A /* UIBarItemExtensionsUITests.swift */,
 				DC9ECE291D426C1C00F6FB1A /* UIButtonExtensionsUITests.swift */,
 				DC9ECE2E1D4273F600F6FB1A /* UILabelExtensionsUITests.swift */,
@@ -465,6 +468,7 @@
 			files = (
 				DC9ECE321D42742900F6FB1A /* UILabelExtensionsUITests.swift in Sources */,
 				DC9ECE331D42742C00F6FB1A /* UIBarItemExtensionsUITests.swift in Sources */,
+				DCA820E71DD60D280043A3B8 /* UIAlertControllerExtensionsUITests.swift in Sources */,
 				DC9ECE2C1D426C2600F6FB1A /* UIButtonExtensionsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
