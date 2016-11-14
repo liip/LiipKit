@@ -1,10 +1,14 @@
-osx_image: xcode8
 language: objective-c
-cache: cocoapods
+osx_image: xcode8
+env:
+  - DESTINATION="OS=10.0,name=iPhone 6s" SCHEME="LiipKit-Example" SDK=iphonesimulator10.0
 podfile: Example/Podfile
 before_install:
-- gem install cocoapods
-- pod install --project-directory=Example
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+  - gem install cocoapods
+  - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/LiipKit.xcworkspace -scheme LiipKit-Example -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.0' ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+  - set -o pipefail 
+  - xcodebuild -version
+  - xcodebuild -workspace Example/LiipKit.xcworkspace -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO test | xcpretty -c
+  - pod lib lint
