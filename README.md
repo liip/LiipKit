@@ -5,11 +5,9 @@
 [![Platform](https://img.shields.io/cocoapods/p/LiipKit.svg?style=flat)](http://cocoapods.org/pods/LiipKit)
 [![Build Status](https://travis-ci.org/liip/LiipKit.svg?branch=master)](https://travis-ci.org/liip/LiipKit)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+
+Requires Swift3.
 
 ## Installation
 
@@ -20,16 +18,25 @@ it, simply add the following lines to your Podfile:
 pod "LiipKit"
 ```
 
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Documentation
+
+### Extensions
 
 * [Int extensions](#int-extensions)
 * [NSDate extensions](#nsdate-extensions)
 * [String extensions](#string-extensions)
+
+### UI
+
 * [UIAlertController extensions](#uialertcontroller-extensions)
 * [UIBarItem extensions](#uibaritem-extensions)
 * [UIButton extensions](#uibutton-extensions)
-* [UIColor extensions](#uicolor-extensions)
 * [UILabel extensions](#uilabel-extensions)
+* [UIColor extensions](#uicolor-extensions)
 
 ### Int extensions
 
