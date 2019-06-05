@@ -8,12 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LiipKit'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'LiipKit regroups usefull classes/extensions used in '\
                        'many applications.'
   s.description      = <<-DESC
 LiipKit provides usefull extensions for
 * Int
+* Double
 * NSDate
 * String
 * UIBarItem

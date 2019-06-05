@@ -29,14 +29,28 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 * [Int extensions](#int-extensions)
 * [NSDate extensions](#nsdate-extensions)
 * [String extensions](#string-extensions)
+* [Double extensions](#)
 
 ### UI
 
-* [UIAlertController extensions](#uialertcontroller-extensions)
-* [UIBarItem extensions](#uibaritem-extensions)
-* [UIButton extensions](#uibutton-extensions)
-* [UILabel extensions](#uilabel-extensions)
-* [UIColor extensions](#uicolor-extensions)
+- [LiipKit](#liipkit)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Example](#example)
+  - [Documentation](#documentation)
+    - [Extensions](#extensions)
+    - [UI](#ui)
+    - [Int extensions](#int-extensions)
+    - [Double extensions](#double-extensions)
+    - [NSDate extensions](#nsdate-extensions)
+    - [String extensions](#string-extensions)
+    - [UIAlertController extensions](#uialertcontroller-extensions)
+    - [UIBarItem extensions](#uibaritem-extensions)
+    - [UIButton extensions](#uibutton-extensions)
+    - [UIColor extensions](#uicolor-extensions)
+    - [UILabel extensions](#uilabel-extensions)
+  - [Author](#author)
+  - [License](#license)
 
 ### Int extensions
 
@@ -44,6 +58,16 @@ Convert seconds (Int) to hours:minutes:seconds (String)
 
 ```swift
 120.secondsToHoursMinutesSeconds() // => == "0:02:00"
+```
+
+### Double extensions
+
+Round double to the nearest number
+
+```swift
+132.1.round(nearest: 0.5) // => == "132.0"
+132.6.round(nearest: 0.5) // => == "132.5"
+132.9.round(nearest: 0.5) // => == "133.0"
 ```
 
 ### NSDate extensions
@@ -125,6 +149,7 @@ Provide a property `localizedText` which is available in Interface Builder (see 
 * Noé Froidevaux
 * Manuel Escrig
 * Germain Hugon
+* Romain Sickenberg
 
 ## License
 
