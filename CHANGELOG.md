@@ -1,5 +1,9 @@
 # Change log
 
+## 0.4.0
+
+Add Double extension.
+
 ## 0.3.0
 
 Add UIAlertController extensions
